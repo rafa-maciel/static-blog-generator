@@ -1,0 +1,103 @@
+.article-content .article-picture {
+    margin-bottom: 50px;
+}
+
+.article-picture img {
+    width: 100%;
+}
+
+.article-content .article-title {
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    letter-spacing: .1em;
+}
+
+.article-content .article-text p {
+    margin-bottom: 25px;
+    color: #808080;
+    font-size: 1rem;
+    word-spacing: .2rem;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+.article-likes{
+    text-align: center;
+}
+
+.article-likes span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #8b0000;
+}
+
+.social-btn {
+    display: flex;
+}
+
+.article-likes .social-btn .btn{
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: .8rem;
+}
+.article-likes .btn:hover {
+    background-color: #ffffff;
+}
+
+
+.article-likes .like-btn {
+    background-color: #8b0000;
+    border: solid 1px #8b0000;
+}
+
+
+.article-likes .like-btn:hover a {
+    color: #8b0000;
+}
+
+.article-likes .facebook-btn {
+    background-color: #00008b;
+    border: solid 1px #00008b;
+}
+
+.article-likes .facebook-btn:hover a {
+    color: #00008b;
+}
+
+.article-likes .twitter-btn {
+    background-color: #add8e6;
+    border: solid 1px #add8e6;
+}
+
+.article-likes .twitter-btn:hover a {
+    color: #add8e6;
+    
+}
+
+.article-author {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+    margin: 50px 0;
+}
+
+.article-author-picture img {
+    width: 100%;
+}
+
+.article-author-info h4 {
+    font-size: 1.4rem;
+}
+
+.article-author-info p {
+    text-align: justify;
+    color: #808080;
+}
